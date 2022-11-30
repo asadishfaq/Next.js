@@ -48,7 +48,7 @@ function NewMeetupForm(props) {
       email: enteredEmail,
       age: parseInt(enteredAge),
       address: enteredAddress,
-      // password: !userId && enteredPassrd,
+      password: "",
     };
 
     userId ? editUser(meetupData) : onAddMeetup(meetupData);
