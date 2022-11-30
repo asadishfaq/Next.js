@@ -17,7 +17,9 @@ function MeetupDetail(props) {
     router.push("/");
   };
 
-  const handleEditUser = () => {};
+  const handleEditUser = () => {
+    router.push(`edit-user/${id}`);
+  };
   return (
     <section className={classes.detail}>
       <img
