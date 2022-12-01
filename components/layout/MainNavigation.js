@@ -12,6 +12,9 @@ function MainNavigation() {
           <li>
             <Link href="/new-user">Add New User</Link>
           </li>
+          <li>
+            <Link href="/upload-image">Upload Image</Link>
+          </li>
         </ul>
       </nav>
     </header>
